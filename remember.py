@@ -16,5 +16,5 @@ def encrypted_message(path: str) -> str:
     return "".join(chr(y) for x in range(width) for y in range(height) if image.getpixel((x, y)) == 1)
 
 
-print(encrypted_message('C:\\Users\\yisra\\Downloads\\code.png'))
+print(encrypted_message('code.png'))
 # Place gunpowder beneath the House of Lords. 11/05/1605

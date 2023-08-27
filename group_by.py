@@ -1,4 +1,7 @@
-def group_by(func, iterable):
+from typing import Callable, Iterable, Dict, List
+
+
+def group_by(func: Callable, iterable: Iterable) -> Dict[List]:
     """
     Groups the elements of an iterable based on the results of applying a function to each element.
 
